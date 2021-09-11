@@ -1,0 +1,131 @@
+body {
+  min-height: 100%;
+}
+
+.offset-nav {
+  margin-top: 69px;
+}
+
+.anchor {
+  /* this offsets the anchor tag*/
+  margin-top: -69px; /* height of nav*/
+  display: block;
+  height: 69px; /* height of nav */
+  visibility: hidden;
+  position: relative;
+}
+
+.wrap-1000 {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.permanent-marker {
+  font-family: "Permanent Marker", cursive;
+}
+
+.red-rose {
+  font-family: "Red Rose", cursive;
+}
+
+.navbar a:hover {
+  color: #ffca3a !important;
+}
+
+.navbar a.btn-dark:hover {
+  color: black !important;
+  background-color: white !important;
+  border: 1px solid black !important;
+}
+
+.light-blue-bg {
+  background-color: #00a7e1;
+  color: white;
+}
+
+.light-blue-text {
+  color: #00a7e1;
+}
+
+.light-background {
+  background-color: #e8e9eb;
+}
+
+.dark-blue-bg {
+  background-color: #1d3354;
+  color: #e8e9eb;
+}
+
+.dark-blue-text {
+  color: #1d3354;
+}
+
+.yellow-bg {
+  background-color: #ffca3a;
+  color: white;
+}
+
+.yellow-text {
+  color: #ffca3a;
+}
+
+.img-circle {
+  border-radius: 50%;
+  aspect-ratio: 1 / 1;
+  max-height: 200px;
+}
+
+.totoro-icon {
+  max-height: 200px;
+}
+
+.subject-box {
+  border: 1px solid white;
+}
+
+.underline-border-white {
+  border-bottom: 1px solid white;
+}
+
+.money-bg {
+  background-image: url("./images/street-6099209_1920.jpg");
+  background-size: cover;
+}
+
+.pricing-last-para {
+  border: 1px solid black;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #f8f9fa;
+}
+
+.text-stroke-black {
+  /* Prefix required. Even Firefox only supports the -webkit- prefix */
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.footer-logo {
+  max-height: 50px;
+  max-width: 270px;
+  background-color: #e8e9eb;
+}
+
+/* -------contact us page------- */
+/* this is so the footer can stay at the page bottom */
+.allButFooter {
+  min-height: calc(100vh - 238px);
+}
+
+.form-wrap {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.btn-dark:hover {
+  color: black !important;
+  background-color: white !important;
+  border: 1px solid black !important;
+}
