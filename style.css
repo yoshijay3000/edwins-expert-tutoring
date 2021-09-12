@@ -71,8 +71,9 @@ body {
 
 .img-circle {
   border-radius: 50%;
-  aspect-ratio: 1 / 1;
-  max-height: 200px;
+  height: auto;
+  width: 100%;
+  max-width: 200px;
 }
 
 .totoro-icon {
